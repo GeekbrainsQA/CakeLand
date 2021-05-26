@@ -634,11 +634,11 @@ h2 {
 	}
 	.header {
 		display: block;
-		text-align:center;
+		text-align:right;/***** меню съезжает, дефолт center *****/
 	}
 	.logo {
 			float:none;
-		width: 100%;
+		width: 200%;/***** логотип съезжает, дефолт width 100% *****/
 	}
 	.search {
 		float:none;
@@ -655,7 +655,7 @@ h2 {
 		width: 8.33%;
 	}
 	h2 {
-		font-size: 1.5em;
+		font-size: 9.5em;/***** большие буквы заголовка, дефолт 1.5 *****/
 	}
 	.grid h3 {
 		font-size: 1em;
